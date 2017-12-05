@@ -1,0 +1,55 @@
+body{
+	text-align: center;
+	background-color: lightblue;
+	font-family: 'Rock Salt', cursive;
+
+}
+.wrapper{
+	background-color: white;
+	width: 500px;
+	height: 600px;
+	display: inline-block;
+	border:20px solid black;
+	padding: 18px;
+}
+h2{
+	font-size: 36px;
+	border: 3px solid black;
+	border-width: 9px;
+	margin: 4px;
+	font-weight: bold;
+}
+
+h3{
+	margin: 3px;
+	color: #82807b;
+	font-size: 16px;
+;
+}
+#listItem{
+	font-family: 'Rock Salt', cursive;
+	font-size: 16px;
+	border:3px dashed black;
+	margin: 1px;
+
+}
+#addItem{
+	width:100px;
+	border: 3px solid red;
+	font-size: 16px;
+	margin: 3px;
+	text-decoration-color: black;
+	font-family: 'Rock Salt', cursive;
+}
+
+ ul { 
+ 	width: 400px;
+ 	margin: px;
+ 	list-style: none; 
+ 	font-size: 24px;
+ }
+
+ .items{
+ 	text-align: left;
+ 	cursor: pointer;
+ }

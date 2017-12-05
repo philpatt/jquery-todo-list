@@ -1,19 +1,25 @@
 
 
-// function to add times
-// function --maybe button-- to remove items
+$('#addItem').click(function() {
+	console.log('clicked!');
+	// console.log(listItem);
+	var listItem = $('#listItem').val();
 
 
-// submit button
+	$('#list').append($('<li class="items" id=' + listItem + '>' + listItem +'</li>'))
+	$('#listItem').val('')
 
-$('.button').click(function(e) {
-  console.log('clicked!');
-  $('.list').first().append($('<li>', {
-  	text: $('.input').val()
-  }))
-   	console.log('New item added');
+	$('.items').on('click', function(){
+		this.remove();
+	})
+})
+ 
 
-  $('.input').val('');
-  console.log('Input Cleared')
+   	// console.log('New item added');
 
-});
+
+  
+
+
+
+
